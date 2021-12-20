@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BCST | Rates</title>
+    <link rel="stylesheet" type="text/css" href="rates.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    
+    <div class = "flex1">
+      <nav>
+        <ul class="dropdown">
+          <li><a><img  class="menu" src="images/menu.png" alt="img"></a>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-bcst.html">About BCST</a></li>
+              <li><a href="meetme.html">Meet Me</a></li>
+              <li><a href="rates.html">Rates</a></li>
+              <li><a href="rates.html#FAQ">FAQ</a></li>
+              <li><a href="booking.html">Schedule</a></li>
+              <li><a href="references.html">References</a></li>
+            </ul>
+          </li> 
+        </ul>
+      </nav>
+
+      <a href = 'booking.html' class="header-menu">Book An Appointment</a>
+    </div>
+
+    <section class="slider-home">
+      <div class="container">
+        <h2 class="hm-slider-text">Session Rates</h2>
+        <h2 class="hm-subslider-text">Biodynamic CranioSacral Therapy</h2>
+      </div>
+    </section>
+
+    <div class = "flex2">
+      
+      <nav class = "f2c1">
+        <a href="about-bcst.html">About BCST</a>
+        <a href="meetme.html">Meet Me</a>
+        <a href="rates.html">Rates</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="booking.html">Book an Appointment</a>
+      </nav>
+
+      <section class="f2c2 rateanimation">
+        <h2> 30 Minute Session </h2>
+        <p> This session type is intended for those individuals who may be inexperienced with BCST or who have a limited amount of time.</p>
+        <h3>$50</h3>
+      </section>
+
+      <section class="f2c3 rateanimation3">
+        <h2> 60 Minute Session </h2>
+        <p>This session type is intended for those individuals who may be returning to BCST or who are looking for a full sesion. </p>
+        <h3>$100</h3>
+      </section>
+
+      <section class="f2c4 rateanimation2">
+        <h2> 75 Minute Session </h2>
+        <p>This session type is still considered a 'full' session but is intended for those who believe they need a slightly longer session.</p>
+        <h3>$120</h3>
+      </section>
+
+      <aside class="f2c5">
+        <h2>Your First Session: <span>$30</span></h2>
+      </aside>
+    </div>
+
+    <div class = "flex2 body2">
+      <figure class="about-image">
+        <img src="images/julie-molliver-ULxPlvh7auc-unsplash.jpg" alt="img">
+        <figcaption>Bath Towell and Salt</figcaption>
+      </figure>
+
+      <section class="f2c6">
+        <h2> Addtional Information </h2>
+        <h3> Longer Sessions </h3>
+        <p>Longer sessions times are available upon request. Please <a href="booking.html">reach out</a> for additional information on longer session.</p>
+        <h3>Commitment to Low-Income Individuals</h3>
+        <p>I am committed to serving all individuals who are interested in BCST. Part of that commitment includes working with those who may be low income or who are experiencing financial difficulties. If you fit this category, please <a href="/booking">reach out</a> to explain your situation, and we can best move forward.</p> 
+      </section>
+
+      <aside id="FAQ" class="f2c5">
+        <h2>Frequently Asked Questions</h2>
+      </aside>
+    </div>
+
+    <div class = "flex2">
+      <div class="f2c7">
+        <button class="collapsible">Does insurance cover BCST sessions?</button>
+          <div class="content">
+            <p>Unfortunately most insurance providers do not cover the cost for BCST sessions. Please check with your insurance provider to inquire about coverage details.</p>
+          </div>
+        <button class="collapsible">What can I expect during a BCST session?</button>
+          <div class="content">
+            <p>BCST are non-invasive and are individually adjusted to promote the most amount of comfort. Please visit the "Meet Me" page to learn more about my approach to BCST.</p>
+          </div>
+        <button class="collapsible">What if I'm not sure that I want to commit to a full session?</button>
+          <div class="content">
+            <p>Along with full 60 and 75 minute sessions, I also offer an abridged 30-minute session type. For those who are new to BCST, I offer first sessions for $30.</p>
+          </div>
+        <button class="collapsible">What should I bring and wear during my BCST session?</button>
+          <div class="content">
+            <p>Everything that you need will be available at my session space. All you need to bring is yourself. Please wear loose-fitting clothing that you feel comfortable wearing.</p>
+          </div>
+        <button class="collapsible">How do I contact you to set up a session?</button>
+          <div class="content">
+            <p>Please visit the Booking page to email me with a date and time that you would like to have a session. Feel free to include any questions that you may have.</p>
+          </div>
+      </div>
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+    </div>
+
+    <div class = "flex2 body2">    
+      <footer class="footer">
+        <a class="footer-text" href="about-bcst.html">About BCST</a> 
+        <a class="footer-text" href="meetme.html">Meet Me</a>
+        <a class="footer-text" href="rates.html">Rates & FAQ</a>
+        <a class="footer-text" href="booking.html">Book Apt</a> 
+        <a class="footer-text" href="references.html">References</a> 
+        <p> Thanks for Visiting! </p>
+      </footer>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BCST | Appointments</title>
+    <link rel="stylesheet" type="text/css" href="booking.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    
+    <div class = "flex1">
+      <nav>
+        <ul class="dropdown">
+          <li><a><img  class="menu" src="images/menu.png" alt="img"></a>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-bcst.html">About BCST</a></li>
+              <li><a href="meetme.html">Meet Me</a></li>
+              <li><a href="rates.html">Rates</a></li>
+              <li><a href="rates.html#FAQ">FAQ</a></li>
+              <li><a href="booking.html">Schedule</a></li>
+              <li><a href="references.html">References</a></li>
+            </ul>
+          </li> 
+        </ul>
+      </nav>
+
+      <a href = 'booking.html' class="header-menu">Book An Appointment</a>
+    </div>
+
+    <section class="slider-home">
+      <div class="container">
+        <h2 class="hm-slider-text">Book a Session</h2>
+        <h2 class="hm-subslider-text">Heather Horbatt</h2>
+        <h4 class="hm-slogan">Practitioner in Training</h4>
+      </div>
+    </section>
+
+    <div class = "flex2">
+      
+      <nav class = "f2c1">
+        <a href="about-bcst.html">About BCST</a>
+        <a href="meetme.html">Meet Me</a>
+        <a href="rates.html">Rates</a>
+        <a href="rates.html#FAQ">FAQ</a>
+        <a href="booking.html">Book an Appointment</a>
+      </nav>
+
+      <section class="f2c2">
+        <h2 class="null">null</h2>
+        <table>
+        <caption class="center">
+          This is a schedule of my general availability.
+        </caption>
+        <colgroup>
+          <col span="1" style="font-weight:300;">
+          <col style="font-weight:600;">
+        </colgroup>
+          <thead>
+            <tr>
+            <th class="heading" scope="row" colspan="2">Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>9:00 AM - 6:30 PM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>9:00 AM - 6:30 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>9:00 AM - 6:30 PM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>9:00 AM - 6:30 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9:00 AM - 6:30 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>8:30 AM - 12 Noon</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>8:30 AM - 12 Noon</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+            <th class="tfoot" scope="row" colspan="2">Upcoming Unavailability
+            </th>
+            </tr>
+            <tr>
+              <td>Thanksgiving</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Christmas Eve</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Christmas</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>New Years Eve</td>
+              <td>Closed</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <figure class="about-image3">
+        <img src="images/deniz-altindas-t1XLQvDqt_4-unsplash.jpg" alt="img">
+      </figure>
+    </div>
+    
+    <div class = "flex2 body2">
+      <section class="f2c3">
+        <h2>Booking</h2>
+        <p>Please review my availability, and then complete the form below with a date and time that you would like to have your session. In an emergency, you are welcome to email me.</p>
+
+        <p>I try to respond to any questions and session requests within 24 hours. If you have not heard back from me within 72 hours, please assume that there was an issues with receiving your message and please reach out again.<p>
+
+        <p>Thank you, and I look forward to meeting you!</p>
+
+        <p><span><a href="mailto:HeatherHorbatt@BCST.COM">Email: HeatherHorbatt@BCST.COM</a></span></p>
+      </section>
+
+      <section class="f2c4">
+      <form method="POST" action="https://formspree.io/f/xbjwrolv">
+      <fieldset>
+        <legend>Book Your Session</legend>
+        <h4>
+          <label class="form-title">Session Length:</label>
+          <br>
+          <input type="radio" id="30min" name="session_length" value="30minutes"><label for="30min" class="form-selection">30 Minute Session</label>
+          <br>
+          <input type="radio" id="60min" name="session_length" value="60minutes"><label for="60min" class="form-selection">60 Minute Session</label>
+          <br>
+          <input type="radio" id="75min" name="session_length" value="75minutes"><label for="75min" class="form-selection">75 Minute Session</label>
+        </h4>
+
+        <h4>
+          <label for="date1" class="form-title">Date:</label>
+          <br>
+          <input type="date" name="date1" id="date1" required class="form-selection">
+        </h4>
+
+        <h4>
+          <label for="time" class="form-title">Time:</label>
+          <br>
+          <select name="time" id="time" size="1" required>
+            <option value="" class="form-selection">9:00 AM</option>
+            <option value="9:30 AM" class="form-selection">9:30 AM</option>
+            <option value="10:00 AM" class="form-selection">10:00 AM</option>
+            <option value="10:30 AM" class="form-selection">10:30 AM</option>
+            <option value="11:00 AM" class="form-selection">11:00 AM</option>
+            <option value="11:30 AM" class="form-selection">11:30 AM</option>
+            <option value="12 Noon" class="form-selection">12 Noon</option>
+            <option value="12:30 PM" class="form-selection">12:30 PM</option>
+            <option value="1:00 PM" class="form-selection">1:00 PM</option>
+            <option value="1:30 PM" class="form-selection">1:30 PM</option>
+            <option value="2:00 PM" class="form-selection">2:00 PM</option>
+            <option value="2:30 PM" class="form-selection">2:30 PM</option>
+            <option value="3:00 PM" class="form-selection">3:00 PM</option>
+            <option value="3:30 PM" class="form-selection">3:30 PM</option>
+            <option value="4:00 PM" class="form-selection">4:00 PM</option>
+            <option value="4:30 PM" class="form-selection">4:30 PM</option>
+            <option value="5:00 PM" class="form-selection">5:00 PM</option>
+            <option value="5:30 PM" class="form-selection">5:30 PM</option>
+            <option value="6:00 PM" class="form-selection">6:00 PM</option>
+          </select>
+        </h4>
+
+        <h4>
+          <label class="form-title">Additional Information:</label>
+          <br>
+          <input type="checkbox" name="additional_info" value="first_time" id="first_time"><label for="first_time" class="form-selection">First Time</label>
+          <br>
+          <input type="checkbox" name="additional_info" value="first_time" id="tactile"><label for="tactile" class="form-selection">Tactile Sensitivity</label>
+          <br>
+          <input type="checkbox" name="additional_info" value="spec_request" id="spec_request"><label for="spec_request" class="form-selection">Special Request (List Below)</label>
+        </h4>
+
+        <h4>
+          <label for="name1" class="form-title">Your Name:</label>
+          <br>
+          <input type="text" name="name1" id="name1" required class="form-selection">
+        </h4>
+
+        <h4>
+          <label for="phone1" class="form-title">Your Phone:</label>
+          <br>
+          <input type="tel" name="phone1" id="phone1" class="form-selection">
+        </h4>
+
+        <h4>
+          <label for="email1" class="form-title">Your Email:</label>
+          <br>
+          <input type="email" name="email1" id="email1" class="form-selection">
+        </h4>
+
+        <h4>
+          <label for="questions_comments" class="form-title">Comments:</label>
+          <br>
+          <textarea name="questions_comments" id="questions_comments" rows="4" cols="40" placeholder="Please list any questions, concerns, or special requests here." class="form-selection"></textarea>
+        </h4>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear Form</button>
+      </fieldset>
+      </form>
+      </section>
+    </div>
+    
+    <div class = "flex2">
+      <figure class="about-image">
+        <img src="images/pexels-pixabay-161477.jpg" alt="img">
+        <img src="images/pexels-anete-lusina-5240677.jpg" alt="img">
+      <figcaption>Hand Massage & Foot Massage</figcaption>
+      </figure>
+
+      <figure class="about-image2">
+        <img src="images/pexels-cottonbro-3997996.jpg" alt="img">
+      <figcaption>Buddah Statue</figcaption>
+      </figure>
+    </div>
+
+    <div class = "flex2 body2">
+      <footer class="footer">
+        <a class="footer-text" href="about-bcst.html">About BCST</a> 
+        <a class="footer-text" href="meetme.html">Meet Me</a>
+        <a class="footer-text" href="rates.html">Rates & FAQ</a>
+        <a class="footer-text" href="booking.html">Book Apt</a> 
+        <a class="footer-text" href="references.html">References</a> 
+        <p> Thanks for Visiting! </p>
+      </footer>
+
+    </div>
+  </body>
+</html>
